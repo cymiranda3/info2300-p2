@@ -1,0 +1,104 @@
+body {
+  /*Background Image Credit: http://blog.visme.co/simple-backgrounds/*/
+   background-image: url("images/mountains.jpg");
+   background-attachment: fixed;
+}
+
+h1, h3 {
+  text-align: center;
+  color: black;
+  font-family: "Lucida Sans Unicode";
+  font-size: 50px;
+}
+h3 {
+  width: 70%;
+  padding-left: 15%;
+  font-size: 15px;
+  padding-bottom: 2%;
+}
+th, td{
+  border: 1px solid black;
+  float: right;
+  padding: 1%;
+  width: 13%;
+  height: 40px;
+}
+table {
+  width: 100%;
+  padding-bottom: 40%;
+}
+#wrapper {
+    width: 90%;
+    overflow: hidden;
+    padding-left: 10%;
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+}
+#left {
+    width: 30%;
+    float: left;
+}
+#right {
+  padding-left: 10px;
+  padding-top: 2%;
+  width: 60%;
+  overflow: hidden;
+  text-align: center;
+  border-left: 1px solid black;
+}
+form[id=addResort] input[type="text"], form[id=addResort] input[type="number"]{
+  border: 1px solid #6C7A89;
+  padding: 5px;
+  width: 40%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+form[id=search] input[type="text"], form[id=search] input[type="number"]{
+  border: 1px solid #6C7A89;
+  padding: 5px;
+  width: 30%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+form[id=addResort], form[id=allresults] {
+padding-top: 5%;
+  padding-bottom: 5%;
+}
+#input_state {
+  border: 1px solid #6C7A89;
+  padding: 5px;
+  height: 25px;
+  width: 44%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+#searchcat {
+  border: 1px solid #6C7A89;
+  padding: 5px;
+  height: 25px;
+  width: 35%;
+  border-radius: 5px;
+}
+#searchsubmit {
+  width: 80px;
+}
+button {
+  border: 1px solid #6C7A89;
+  padding: 5px;
+  width: 44%;
+  border-radius: 5px;
+}
+footer {
+  font-family: "Lucida Sans Unicode";
+  font-size: 10px;
+  float: right;
+}
+#message {
+  float: left;
+  padding-left: 30px;
+  font-size: 15px;
+}
+#display_all {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
